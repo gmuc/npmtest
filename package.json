@@ -1,0 +1,33 @@
+{
+  "name": "npmtestgm",
+  "version": "1.0.0",
+  "description": "node mit git testen",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmuc/npmtest.git"
+  },
+  "keywords": [
+    "postgres"
+  ],
+  "author": "gmuc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmuc/npmtest/issues"
+  },
+  "homepage": "https://github.com/gmuc/npmtest#readme"
+}
